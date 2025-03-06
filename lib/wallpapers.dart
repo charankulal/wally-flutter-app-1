@@ -9,103 +9,80 @@ class WallPaper {
   String title;
   WallPaperImage coverImage;
   List<WallPaperImage> images;
-  String description;
-  String studio;
 
-  WallPaper(this.title, this.coverImage, this.description, this.studio,
+  WallPaper(this.title, this.coverImage,
       {this.images = const []});
 }
 
 List<WallPaper> wallpapers = [
   WallPaper(
-    "Dog Man",
+    "Terminator",
     WallPaperImage(
-        "https://github.com/charankulal/wally-flutter-app-1/blob/master/10954718.jpg",
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i1.png",
         ""),
-    "",
-    "Fox Studios",
   ),
   WallPaper(
-    "Last Breath",
+    "Lion king",
     WallPaperImage(
-        "https://github.com/charankulal/wally-flutter-app-1/blob/master/14403504.jpg",
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i2.png",
         ""),
-    "",
-    "Columbia Pictures",
   ),
   WallPaper(
-    "Captain America",
+    "Mars Attack",
     WallPaperImage(
-        "https://github.com/charankulal/wally-flutter-app-1/blob/master/14513804.jpg",
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i3.jpeg",
         ""),
-    "",
-    "Marvel Studios",
   ),
   WallPaper(
-    "The Monkey",
+    "Jason goes to hell",
     WallPaperImage(
-        "https://github.com/charankulal/wally-flutter-app-1/blob/master/27714946.jpg",
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i4.jpeg",
         ""),
-    "",
-    "DC",
+
   ),
 ];
 
 List<WallPaper> wallpapers2 = [
   WallPaper(
-    "Last Dream",
+    "1000 Corpses",
     WallPaperImage(
-        "https://github.com/charankulal/wally-flutter-app-1/blob/master/4819866.jpg",
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i5.jpeg",
         ""),
-    "",
-    "Disney Studios",
   ),
   WallPaper(
-    "Make it Real",
-    WallPaperImage("https://github.com/charankulal/wally-flutter-app-1/blob/master/4992098.jpg", ""),
-    "",
-    "Guitar shop",
+    "Silent Hill",
+    WallPaperImage("https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i6.jpeg", ""),
   ),
   WallPaper(
-    "Paddington in Peru",
+    "The trueman show",
     WallPaperImage(
-        "https://github.com/charankulal/wally-flutter-app-1/blob/master/5822536.jpg",
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i7.jpeg",
         ""),
-    "",
-    "Marvel Studios",
   ),
   WallPaper(
-    "The Boy",
+    "Elephant Man",
     WallPaperImage(
-        "https://github.com/charankulal/wally-flutter-app-1/blob/master/8852084.jpg",
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i8.jpeg",
         ""),
-    "",
-    "Avalanche Studios",
   ),
 ];
 
 List<WallPaper> featuredWallPapers = [
   WallPaper(
+    "Full metal Jacket",
+    WallPaperImage(
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i9.jpeg",
+        ""),
+  ),
+  WallPaper(
     "Mickey 17",
     WallPaperImage(
-        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/fw1.jpg",
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i10.jpeg",
         ""),
-    "",
-    "Feral Studios",
   ),
   WallPaper(
-    "Black Bag",
+    "Suspiria",
     WallPaperImage(
-        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/fw1.jpg",
-        ""),
-    "",
-    "Fox Studios",
-  ),
-  WallPaper(
-    "Pulse",
-    WallPaperImage(
-        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/fw3.jpg", ""),
-    "",
-    "NetherRealm Studios",
+        "https://raw.githubusercontent.com/charankulal/wally-flutter-app-1/refs/heads/master/images_store/i11.jpeg", ""),
   )
 ];
